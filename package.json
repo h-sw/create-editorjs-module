@@ -1,0 +1,31 @@
+{
+  "name": "create-editorjs-module",
+  "version": "0.1.5",
+  "description": "The base template for Create EditorJS Module",
+  "scripts": {},
+  "keywords": [
+    "react",
+    "create-editorjs-app",
+    "editorjs",
+    "template"
+  ],
+  "author": "sam@wrtn.io",
+  "license": "MIT",
+  "files": [
+    "template/",
+    "bin/"
+  ],
+  "main": "bin/create-editorjs-cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "create-editorjs-module": "./bin/create-editorjs-cli.js"
+  },
+  "dependencies": {
+    "commander": "^8.1.0",
+    "fs": "^0.0.1-security",
+    "minimatch": "^3.0.4",
+    "mkdirp": "^1.0.4",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  }
+}
